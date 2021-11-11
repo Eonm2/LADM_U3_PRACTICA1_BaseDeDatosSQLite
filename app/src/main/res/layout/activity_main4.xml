@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/consulta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Licencia vencida"
+                android:drawableLeft="@drawable/vencida"></Button>
+
+            <Button
+                android:id="@+id/consulta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conductores no asignados"
+                android:drawableLeft="@drawable/taxi3"
+                ></Button>
+
+            <EditText
+                android:id="@+id/txtConsulta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingresa años de uso"></EditText>
+
+            <Button
+                android:id="@+id/consulta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Años de uso de vehiculos"
+                android:drawableLeft="@drawable/annios"></Button>
+
+            <EditText
+                android:id="@+id/txtConsulta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Coloca una placa"></EditText>
+
+            <Button
+                android:id="@+id/consulta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consulta conductores"
+                android:drawableLeft="@drawable/conductorvehiculo"></Button>
+
+            <EditText
+                android:id="@+id/txtConsulta41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Coloca un conductor"></EditText>
+
+            <Button
+                android:id="@+id/consulta41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/vehiculoconductor"
+                android:text="Consulta Vehiculos"
+
+                ></Button>
+
+            <Button
+                android:id="@+id/transformar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exportar la consulta"
+                android:drawableLeft="@drawable/exportar"></Button>
+
+            <Button
+                android:id="@+id/exporarConductorVehiculo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exportar Conductores - Vehiculos"
+                android:drawableLeft="@drawable/exportarvehiculos"></Button>
+
+            <ListView
+                android:id="@+id/listaConsultas"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"></ListView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

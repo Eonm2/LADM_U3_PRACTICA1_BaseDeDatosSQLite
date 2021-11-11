@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/conductor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONDUCTOR"
+
+        android:drawableTop="@drawable/conductor"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/vehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VEHICULO"
+        android:drawableTop="@drawable/vehiculo"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/consultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTAS"
+        android:drawableTop="@drawable/consultas"/>
+</LinearLayout>
